@@ -4,7 +4,7 @@ def index
   if current_user.role.try(:name) == 'admin'
 	@secret_codes = SecretCode.all.paginate(:page => params[:page], :per_page => 10)
   else
-	redirect_to :back
+	render 'app_pages/sample'
   end
 end
 
