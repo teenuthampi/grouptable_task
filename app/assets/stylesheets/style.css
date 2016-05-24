@@ -1,0 +1,50 @@
+.secret-table {
+  margin-left: 15%;
+  width: 70%;
+}
+.table-heading {
+	 text-align: center;
+}
+.random-gen {
+    float: right;
+    padding-bottom: 14px;
+    padding-top: 3px;
+}
+.generation {
+	position: absolute;
+  right: 129px;
+  top: 66px;
+}
+#spanval{
+	cursor: pointer;
+}
+#spanval:hover{
+	font-style: italic;
+	color: #337AB7;
+}
+.new_user{
+	position: relative;
+}
+
+.code-generation {
+    bottom: 14%;
+    position: absolute;
+    right: 27%;
+}
+.code-generation:hover, .code-generation:focus{
+	text-decoration: none;
+	outline: none;
+}
+.actions{
+	margin-top: 5px;
+}
+
+.error {
+    color: rgb(255, 0, 0);
+    font-weight: normal;
+}
+.welcome-img {
+    margin-left: 32%;
+    padding-top: 10%;
+    text-align: center;
+}

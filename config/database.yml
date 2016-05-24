@@ -1,0 +1,8 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: grouptable1
+  username: root
+  password: carmatec
+  host: 127.0.0.1
+  port: 3306
